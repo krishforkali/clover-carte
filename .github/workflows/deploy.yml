@@ -40,6 +40,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
 
+    # FTP_HOST, FTP_USERNAME and FTP_PASSWORD
+    # are stored in the "production" environment
+    environment: production
+
     steps:
       - name: Download build artifact
         uses: actions/download-artifact@v4
