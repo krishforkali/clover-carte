@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: #ffffff;
+  overflow-x: hidden;
+}
+
+@theme {
+  --color-black: #0F0F0F;
+  --color-green: #018A06;
+}
+
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.auto-marquee-track {
+  display: flex;
+  width: max-content;
+  flex-shrink: 0;
+
+  animation: auto-marquee-scroll var(--marquee-speed) linear infinite;
+
+  will-change: transform;
+
+  touch-action: pan-x;
+
+  cursor: grab;
+}
+
+.auto-marquee-track.is-dragging {
+  animation-play-state: paused;
+  cursor: grabbing;
+}
+
+.auto-marquee-group {
+  display: flex;
+  width: max-content;
+  flex-shrink: 0;
+}
+
+@keyframes auto-marquee-scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(
+      calc(-1 * var(--marquee-distance)),
+      0,
+      0
+    );
+  }
+}
