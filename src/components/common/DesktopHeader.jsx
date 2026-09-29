@@ -13,7 +13,7 @@ function DesktopHeader() {
 
     return (
         <div className="hidden lg:block w-full">
-            <header className="w-full h-[80px] bg-white shadow-[0_2px_6px_rgba(5,150,10,0.1)]">
+            <header className="w-full h-[80px] bg-black shadow-[0_2px_6px_rgba(5,150,10,0.1)]">
                 <div className="relative w-full h-full flex items-center justify-center">
 
                     <div className="h-[66px] flex items-center justify-center gap-[22px]">
