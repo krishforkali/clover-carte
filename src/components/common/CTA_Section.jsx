@@ -11,7 +11,7 @@ export default function CTA_Section({href}) {
             <div className=" flex p-2 gap-3 items-center justify-center overflow-hidden bg-[#0F0F0F] " >
                 <div className=" relative h-[180px] w-[116px] overflow-hidden " >
                     <Image
-                        src="/images/contact_image_2.png"
+                        src="/images/contact_image_2.webp"
                         alt="VendiCarte smart vending machine"
                         fill
                         className="object-containt object-center"
@@ -81,7 +81,7 @@ export default function CTA_Section({href}) {
                     "
                             >
                                 <Image
-                                    src="/images/contact_image_2.png"
+                                    src="/images/contact_image_2.webp"
                                     alt="VendiCarte smart vending machine"
                                     fill
                                     className="object-containt object-center"

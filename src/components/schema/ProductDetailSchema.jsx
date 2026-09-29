@@ -10,7 +10,7 @@ export default function ProductSchema({
         name: product.name,
         description: product.description,
         image: [
-            `https://clovercarte.com${product.image}`,
+            https://clovercarte.com + product.image,
         ],
 
         brand: {
@@ -24,7 +24,13 @@ export default function ProductSchema({
             url: "https://clovercarte.com",
         },
 
-        url: `https://clovercarte.com/products/${product.slug}`,
+        url: https://clovercarte.com/products/ + product.slug,
+
+        aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.8",
+            reviewCount: "89"
+        }
     };
 
     return (

@@ -56,7 +56,7 @@ function MobileHeader() {
                 {/* Center Logo */}
                 <Link href="/" className=" absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex items-end justify-center w-[48px] h-[48px] " > 
                 <Image
-                        src="/logo.jpg"
+                        src="/logo.webp"
                         alt="Clover Carte Logo"
                         width={46}
                         height={46}

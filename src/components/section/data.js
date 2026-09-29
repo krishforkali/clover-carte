@@ -9,7 +9,7 @@ export const sliderMachine = [
   {
     slug: "caftina",
     title: "CAFTINA",
-    image: "/images/caftina.jpg",
+    image: "/images/caftina.webp",
     imageSize: { w: 351, h: 383 },
 
     badges: [
@@ -48,7 +48,7 @@ export const sliderMachine = [
   {
     slug: "vendshop",
     title: "VENDSHOP",
-    image: "/images/vendshop.jpg",
+    image: "/images/vendshop.webp",
     imageSize: { w: 247, h: 383 },
 
     badges: [
@@ -95,7 +95,7 @@ export const sliderMachine = [
   {
     slug: "smartslim",
     title: "smartslim",
-    image: "/images/smartslim.jpg",
+    image: "/images/smartslim.webp",
     imageSize: { w: 222, h: 413 },
 
     badges: [
@@ -142,7 +142,7 @@ export const sliderMachine = [
   {
     slug: "clovermini",
     title: "Clover Mini",
-    image: "/images/smartslim3.jpg",
+    image: "/images/smartslim3.webp",
     imageSize: { w: 267, h: 383 },
 
     badges: [
@@ -189,7 +189,7 @@ export const sliderMachine = [
   {
     title: "vendmini",
     slug: "vendmini",
-    image: "/images/vendmini.jpg",
+    image: "/images/vendmini.webp",
     imageSize: { w: 365, h: 383 },
 
     badges: [
@@ -236,7 +236,7 @@ export const sliderMachine = [
   {
     title: "vendelle",
     slug: "vendelle",
-    image: "/images/vendelle.jpg",
+    image: "/images/vendelle.webp",
     imageSize: { w: 278, h: 383 },
 
     badges: [

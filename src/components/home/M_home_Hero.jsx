@@ -8,7 +8,7 @@ export default function M_home_Hero() {
 
                 {/* Hero Image */}
                 <Image
-                    src="/m_images/m_home_hero.jpg"
+                    src="/m_images/m_home_hero.webp"
                     alt="CloverCarte Smart Vending Machine"
                     width={768}
                     height={509}

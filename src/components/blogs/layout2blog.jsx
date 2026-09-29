@@ -130,7 +130,7 @@ export default function Layout2blog() {
                         rgba(102,102,102,0) 0%,
                         rgba(0,0,0,.65) 100%
                     ),
-                    url("/images/vendshopblog.jpg")
+                    url("/images/vendshopblog.webp")
                 `,
                     }}
                 >
@@ -230,7 +230,7 @@ export default function Layout2blog() {
 
                     <div className="relative overflow-hidden rounded-[4px] w-full h-[475px]">
                         <Image
-                            src="/images/machine/m2.jpeg"
+                            src="/images/machine/m2.webp"
                             alt="Vendshop Vending Machine"
                             fill
                             className="object-cover"

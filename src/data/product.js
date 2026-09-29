@@ -19,7 +19,7 @@ export const products = [
     slug: "caftina",
     name: "Caftina",
     subtitle: "Smart Hot & Cold Beverage Combo Vending Machine",
-    image: "/images/machine/m1.jpg",
+    image: "/images/machine/m1.webp",
     description:
       "The Caftina Hot & Cold Beverage Vending Machine is designed to deliver fresh, café-style beverages quickly and conveniently with easy one-touch operation. It automatically prepares and dispenses beverages within seconds, including coffee, cappuccino, latte, espresso, tea, and hot chocolate. With advanced brewing technology, consistent taste, hygienic dispensing, and easy maintenance, Caftina is an ideal smart beverage vending solution for modern workplaces and commercial spaces.",
 
@@ -235,7 +235,7 @@ export const products = [
     slug: "vendshop",
     name: "Vendshop",
     subtitle: "Smart Snack & Cold Beverage Combo Vending Machine",
-    image: "/images/machine/m2.jpg",
+    image: "/images/machine/m2.webp",
     seo: {
       metaTitle: "Vendshop Smart Snack Cold Beverage Combo Vending Machine",
       metaDiscription:
@@ -446,7 +446,7 @@ export const products = [
     slug: "vendmini",
     name: "Vendmini",
     subtitle: "Compact Essentials & Convenience Vending Machine",
-    image: "/images/machine/m3.jpg",
+    image: "/images/machine/m3.webp",
     description:
       "Vendimini is a compact smart vending machine built for efficient dispensing in offices, clinics, retail stores, and reception areas. It combines industrial-grade construction with digital payment support and real-time inventory management via VendiCarte. A flexible customized vending solution, it delivers reliable performance in compact spaces.",
     seo: {
@@ -649,7 +649,7 @@ export const products = [
     name: "SmartSlim",
     slug: "smartslim",
     subtitle: "Smart Snack & Cold Beverage Combo Vending Machine",
-    image: "/images/machine/m4.jpg",
+    image: "/images/machine/m4.webp",
 
     description:
       "Smart Slim is a compact smart vending machine designed for locations where space is limited without compromising performance. It features cashless payments, intelligent dispensing, and real-time inventory management through VendiCarte. Built for reliable automated retail, it also supports customized vending solutions and OEM branding.",
@@ -839,7 +839,7 @@ export const products = [
     name: "Clover Mini",
     slug: "clovermini",
     subtitle: "Compact Smart Snack & Cold Beverage Vending Machine",
-    image: "/images/machine/m5.jpg",
+    image: "/images/machine/m5.webp",
     description:
       "Clover Mini is a compact smart vending machine designed to dispense snacks and chilled beverages efficiently. Ideal for offices, retail spaces, and high-traffic locations, it features cashless payments, reliable performance, and smart inventory management. With flexible OEM/ODM customization, Clover Mini can be tailored to your products, branding, and business requirements.",
     seo: {
@@ -1063,7 +1063,7 @@ export const products = [
     name: "Vendelle",
     slug: "vendelle",
     subtitle: "Smart Beauty, Personal Care & Hygiene Vending Machine",
-    image: "/images/machine/m6.jpg",
+    image: "/images/machine/m6.webp",
 
     description:
       "Vendelle is a versatile smart vending machine designed to dispense a wide range of packaged products. Built for retail, healthcare, hospitality, and corporate environments, it features cloud-based monitoring, cashless payments, and real-time inventory management. With OEM/ODM manufacturing and customized configurations, Vendelle provides a scalable automated retail solution.",

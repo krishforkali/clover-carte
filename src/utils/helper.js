@@ -1,12 +1,12 @@
-import pharma from "../assets/images/industries/indus_1.jpg";
-import food from "../assets/images/industries/indus_2.jpg";
-import retail from "../assets/images/industries/indus_3.jpg";
-import beauty from "../assets/images/industries/indus_4.jpg";
-import fitness from "../assets/images/industries/indus_5.jpg";
-import dairy from "../assets/images/industries/indus_6.jpg";
-import automobile from "../assets/images/industries/indus_7.jpg";
-import hotels from "../assets/images/industries/indus_8.jpg";
-import manufacturing from "../assets/images/industries/indus_9.jpg";
+import pharma from "../assets/images/industries/indus_1.webp";
+import food from "../assets/images/industries/indus_2.webp";
+import retail from "../assets/images/industries/indus_3.webp";
+import beauty from "../assets/images/industries/indus_4.webp";
+import fitness from "../assets/images/industries/indus_5.webp";
+import dairy from "../assets/images/industries/indus_6.webp";
+import automobile from "../assets/images/industries/indus_7.webp";
+import hotels from "../assets/images/industries/indus_8.webp";
+import manufacturing from "../assets/images/industries/indus_9.webp";
 
 import {
     Cog, Factory, Wifi, Headphones, ClipboardList, PencilRuler, Box, FlaskConical, ShieldCheck, Truck, Wrench, Cloud, BarChart3, CreditCard, Blocks, PackageSearch, Activity,

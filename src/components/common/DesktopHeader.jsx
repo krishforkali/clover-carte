@@ -98,7 +98,7 @@ function DesktopHeader() {
                             className="w-[90px] h-[90px] flex-shrink-0 rounded-full bg-white flex items-center justify-center mt-3"
                         >
                             <Image
-                                src="/logo.jpg"
+                                src="/logo.webp"
                                 alt="Clover Carte Logo"
                                 width={90}
                                 height={90}
