@@ -29,14 +29,14 @@ export default function M_home_Hero() {
                 />
 
                 {/* Content */}
-                <div className="relative z-10 flex w-full flex-col items-end pr-5">
+                <div className="relative z-10 flex w-full flex-col items-center justify-center text-center">
                     <h1 className="text-center text-[24px] font-bold leading-[30px] tracking-[-0.8px] text-[#0F0F0F]">
                         Automatic Vending
                         <br />
                         Machine Manufacturer
                     </h1>
 
-                    <span className="text-center text-[14px] font-medium text-black">
+                    <span className="mt-2 text-center text-[14px] font-medium text-black">
                         Innovative | Reliable | Customizable.
                         <br />
                         Designed for modern businesses.
