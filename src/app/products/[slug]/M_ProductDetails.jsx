@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import { products } from "../../../data/product";
 import { SvgIcon } from "../../../components/svg/icons";
 import { ShieldCheck, Wrench } from "lucide-react";
@@ -9,6 +12,7 @@ import M_ProductTabs from "@/components/common/M_ProductTabs";
 import RequestQuoteButton from "@/components/common/RequestQuoteButton";
 
 function M_ProductDetails({ slug }) {
+    const [isExpanded, setIsExpanded] = useState(false);
     const product = products.find((item) => item.slug === slug);
 
     if (!product) return <h1>Product Not Found</h1>;
@@ -32,7 +36,9 @@ function M_ProductDetails({ slug }) {
         },
     ];
     
-    
+    const desc = product.description || "";
+    const isLongText = desc.length > 130;
+    const displayText = isLongText && !isExpanded ? `${desc.slice(0, 130)}...` : desc;
 
     return (
         <>
@@ -97,7 +103,17 @@ function M_ProductDetails({ slug }) {
                                 </h2>
 
                                 <p className="w-full  text-[12px] font-normal leading-[18px] text-[#5F5F5F]">
-                                    {product.description} </p>
+                                    {displayText}{" "}
+                                    {isLongText && (
+                                        <button
+                                            type="button"
+                                            onClick={() => setIsExpanded(!isExpanded)}
+                                            className="text-[#018A06] font-semibold underline ml-1 focus:outline-none"
+                                        >
+                                            {isExpanded ? "Read Less" : "Read More"}
+                                        </button>
+                                    )}
+                                </p>
                             </div>
                         </div>
 
