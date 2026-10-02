@@ -102,7 +102,7 @@ function M_ProductDetails({ slug }) {
                                     {product.subtitle}
                                 </h2>
 
-                                <p className="w-full  text-[12px] font-normal leading-[18px] text-[#5F5F5F]">
+                                <p className="w-full  text-[14px] font-normal leading-[20px] text-[#5F5F5F]">
                                     {displayText}{" "}
                                     {isLongText && (
                                         <button
