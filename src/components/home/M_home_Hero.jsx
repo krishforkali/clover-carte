@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function M_home_Hero() {
     return (
         <section className="w-full flex justify-center">
-            <div className="relative w-full h-[509px] overflow-hidden rounded-[12px] bg-white flex flex-col justify-between py-5 px-5">
+            <div className="relative w-full h-[509px] overflow-hidden rounded-[12px] bg-white flex flex-col justify-between pt-3 pb-4 px-4">
 
                 {/* Hero Image */}
                 <Image

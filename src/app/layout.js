@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
       <body className="font-[var(--font-plus-jakarta)]">
         <Header />
 
-        <main className="lg:pt-[90px] pt-[90px]">
+        <main className="lg:pt-[90px] pt-[60px]">
           {children}
         </main>
 

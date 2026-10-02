@@ -55,7 +55,7 @@ export default function FAQAccordion({
                                 <div
                                     className={`grid overflow-hidden transition-all duration-300 ease-in-out ${
                                         isOpen
-                                            ? "grid-rows-[1fr] opacity-100 mt-2"
+                                            ? "grid-rows-[1fr] opacity-100"
                                             : "grid-rows-[0fr] opacity-0"
                                     }`}
                                 >
