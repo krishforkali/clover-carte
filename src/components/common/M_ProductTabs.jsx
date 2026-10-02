@@ -186,7 +186,7 @@ export default function M_ProductTabs({
                                             </h3>
 
                                             <p
-                                                className=" w-full text-[12px] font-normal leading-[15px] text-[#5F5F5F]"
+                                                className=" w-full text-[14px] font-normal leading-[20px] text-[#5F5F5F]"
                                             >
                                                 {specification.value}
                                             </p>

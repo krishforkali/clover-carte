@@ -10,6 +10,7 @@ import FAQAccordion from "@/components/common/FAQAccordion";
 import Link from "next/link";
 import M_ProductTabs from "@/components/common/M_ProductTabs";
 import RequestQuoteButton from "@/components/common/RequestQuoteButton";
+import AutoMarquee from "@/components/common/AutoMarquee";
 
 function M_ProductDetails({ slug }) {
     const [isExpanded, setIsExpanded] = useState(false);
@@ -135,56 +136,53 @@ function M_ProductDetails({ slug }) {
                         </div>
                     </div>
 
-                    <div className="flex w-full flex-row items-center gap-3 border border-[#F58E05] bg-[#FFFAF5] px-2 py-3 overflow-x-auto scrollbar-none">
-                        <div className="flex shrink-0 items-center gap-2">
-                            <SvgIcon.IndianflagIcon />
-                            <span className="w-[45px]  text-[12px] font-medium leading-[18px] text-[#0F0F0F]">
-                                Made in
-                                <br />
-                                India
-                            </span>
-                        </div>
-
-                        <div className="flex shrink-0 items-center gap-2">
-                            <ShieldCheck size={24} strokeWidth={1.5} />
-                            <div >
-                                <span className="w-[52px]  text-[12px] font-bold leading-[18px] text-[#0F0F0F]">
-                                    1-Year
-                                </span><br />
-                                <span className="w-[52px]  text-[12px] font-normal leading-[18px] text-[#0F0F0F]">
-
-                                    Warranty
+                    <div className="w-full border border-[#F58E05] bg-[#FFFAF5] px-2 py-3 rounded-[8px] overflow-hidden">
+                        <AutoMarquee speed={20} gap={24}>
+                            <div className="flex shrink-0 items-center gap-2">
+                                <SvgIcon.IndianflagIcon />
+                                <span className="w-[45px] text-[12px] font-medium leading-[18px] text-[#0F0F0F]">
+                                    Made in
+                                    <br />
+                                    India
                                 </span>
                             </div>
-                        </div>
 
-                        <div className="flex shrink-0 items-center gap-2">
-                            <Wrench size={24} strokeWidth={1.5} />
-
-                            <div >
-                                <span className="w-[52px]  text-[12px] font-bold leading-[18px] text-[#0F0F0F]">
-                                    AMC
-                                </span><br />
-                                <span className="w-[52px]  text-[12px] font-normal leading-[18px] text-[#0F0F0F]">
-
-                                    Availabel
-                                </span>
+                            <div className="flex shrink-0 items-center gap-2">
+                                <ShieldCheck size={24} strokeWidth={1.5} className="text-[#018A06]" />
+                                <div>
+                                    <span className="w-[52px] text-[12px] font-bold leading-[18px] text-[#0F0F0F]">
+                                        1-Year
+                                    </span><br />
+                                    <span className="w-[52px] text-[12px] font-normal leading-[18px] text-[#0F0F0F]">
+                                        Warranty
+                                    </span>
+                                </div>
                             </div>
-                        </div>
 
-                        <div className="flex shrink-0 items-center gap-2">
-                            <MdOutlineSupportAgent size={24} />
-
-                            <div >
-                                <span className="w-[52px]  text-[12px] font-bold leading-[18px] text-[#0F0F0F]">
-                                    24/7
-                                </span><br />
-                                <span className="w-[52px]  text-[12px] font-normal leading-[18px] text-[#0F0F0F]">
-
-                                    Remote Support
-                                </span>
+                            <div className="flex shrink-0 items-center gap-2">
+                                <Wrench size={24} strokeWidth={1.5} className="text-[#018A06]" />
+                                <div>
+                                    <span className="w-[52px] text-[12px] font-bold leading-[18px] text-[#0F0F0F]">
+                                        AMC
+                                    </span><br />
+                                    <span className="w-[52px] text-[12px] font-normal leading-[18px] text-[#0F0F0F]">
+                                        Available
+                                    </span>
+                                </div>
                             </div>
-                        </div>
+
+                            <div className="flex shrink-0 items-center gap-2">
+                                <MdOutlineSupportAgent size={24} className="text-[#018A06]" />
+                                <div>
+                                    <span className="w-[52px] text-[12px] font-bold leading-[18px] text-[#0F0F0F]">
+                                        24/7
+                                    </span><br />
+                                    <span className="w-[52px] text-[12px] font-normal leading-[18px] text-[#0F0F0F]">
+                                        Remote Support
+                                    </span>
+                                </div>
+                            </div>
+                        </AutoMarquee>
                     </div>
 
                     <div className="flex w-full items-center  gap-5">
