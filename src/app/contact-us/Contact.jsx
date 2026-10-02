@@ -176,7 +176,7 @@ const Contact = () => {
                             "
                         >
                             <Image
-                                src="/images/contact_image.png"
+                                src="/images/contact_image.webp"
                                 alt="Smart vending machine"
                                 fill
                                 priority

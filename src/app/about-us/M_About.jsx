@@ -2,7 +2,7 @@ import { aboutFeatures, aboutWorkflowSteps } from '@/utils/helper';
 import Image from 'next/image';
 import { FiArrowUpRight } from 'react-icons/fi';
 import aboutHeroImage from "../../assets/images/abt_1.webp";
-import aboutImage_2 from "../../assets/images/abt_2.jpg";
+import aboutImage_2 from "../../assets/images/abt_2.webp";
 
 export default function M_About() {
     return (

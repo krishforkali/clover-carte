@@ -1,5 +1,5 @@
 import React from "react";
-import comp_over from "../../assets/images/com_over.jpg"
+import comp_over from "../../assets/images/com_over.webp"
 import Image from "next/image";
 
 export default function CompanyOverview() {

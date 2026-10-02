@@ -60,23 +60,34 @@ function ManufacturingProc() {
 
             {/* Full-width marquee — true edge-to-edge */}
             <div className="overflow-hidden w-full mt-10">
-                <div className="mfg-track flex">
+                <div className="mfg-track flex items-center">
                     {MARQUEE_STEPS.map((step, idx) => {
                         const Icon = step.icon;
                         return (
-                            <div
-                                key={idx}
-                                className="flex flex-col items-center text-center flex-shrink-0 px-6"
-                                style={{ width: "280px" }}
-                            >
-                                <div className="w-[80px] h-[80px] rounded-full border-[3px] border-[#018A06] bg-white flex items-center justify-center">
-                                    <Icon className="w-10 h-8 text-[#018A06]" />
+                            <React.Fragment key={idx}>
+                                <div
+                                    className="flex flex-col items-center text-center flex-shrink-0 px-6"
+                                    style={{ width: "280px" }}
+                                >
+                                    <div className="w-[80px] h-[80px] rounded-full border-[3px] border-[#018A06] bg-white flex items-center justify-center">
+                                        <Icon className="w-10 h-8 text-[#018A06]" />
+                                    </div>
+                                    <h3 className="mt-5 text-[18px] font-bold text-[#0F0F0F] text-nowrap">
+                                        {step.number}. {step.title}
+                                    </h3>
+                                    <p className="mt-2 text-[15px] text-[#5F5F5F]">{step.subtitle}</p>
                                 </div>
-                                <h3 className="mt-5 text-[18px] font-bold text-[#0F0F0F] text-nowrap">
-                                    {step.number}. {step.title}
-                                </h3>
-                                <p className="mt-2 text-[15px] text-[#5F5F5F]">{step.subtitle}</p>
-                            </div>
+
+                                {/* Double-chevron flow arrow */}
+                                <div className="flex items-center flex-shrink-0 -mt-8 gap-[2px]">
+                                    <svg width="24" height="32" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4 4L18 16L4 28" stroke="#018A06" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                                    </svg>
+                                    <svg width="24" height="32" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-2">
+                                        <path d="M4 4L18 16L4 28" stroke="#018A06" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                                    </svg>
+                                </div>
+                            </React.Fragment>
                         );
                     })}
                 </div>
@@ -87,3 +98,5 @@ function ManufacturingProc() {
 }
 
 export default ManufacturingProc
+
+

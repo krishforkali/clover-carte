@@ -52,31 +52,31 @@ function MobileFooter({ lionLogo, logo }) {
 
                         <a
                             href="https://www.facebook.com/Clovercarte" target="_blank" rel="noopener noreferrer" aria-label="Facebook" >
-                            <Image width={24} height={24} alt="Clover Carte Facebook" src="/images/social/fb.png" />
+                            <Image width={24} height={24} alt="Clover Carte Facebook" src="/images/social/fb.webp" />
                             {/* <SocialIcon.facebook size="24px" /> */}
                         </a>
 
                         <a href="https://www.instagram.com/clovercarte/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" >
-                            <Image width={24} height={24} alt="Clover Carte Instagram" src="/images/social/ista.png" />
+                            <Image width={24} height={24} alt="Clover Carte Instagram" src="/images/social/ista.webp" />
                         </a>
 
                         <a href="https://x.com/clovercarte" target="_blank" rel="noopener noreferrer" aria-label="X" >
-                            <Image width={24} height={24} alt="Clover Carte Twitter" src="/images/social/twtr.png" />
+                            <Image width={24} height={24} alt="Clover Carte Twitter" src="/images/social/twtr.webp" />
                             {/* <SocialIcon.twitter size="18px" /> */}
                         </a>
 
                         <a href="https://www.linkedin.com/company/clovercarte" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" >
 
-                            <Image width={24} height={24} alt="Clover Carte Liinkdin" src="/images/social/lnk.png" />
+                            <Image width={24} height={24} alt="Clover Carte Liinkdin" src="/images/social/lnk.webp" />
                             {/* <SocialIcon.linkdin size="24px" /> */}
                         </a>
 
                         <a href="https://www.youtube.com/@clovercarte" target="_blank" rel="noopener noreferrer" aria-label="YouTube" >
-                            <Image width={24} height={24} alt="Clover Carte Youtube" src="/images/social/ytb.png" />
+                            <Image width={24} height={24} alt="Clover Carte Youtube" src="/images/social/ytb.webp" />
                         </a>
 
                         <a href="https://in.pinterest.com/clovercarte/" target="_blank" rel="noopener noreferrer" aria-label="Pinterest" className="bg-white rounded-full" >
-                            <Image width={24} height={24} alt="Clover Carte Pintrest" src="/images/social/pint.png" />
+                            <Image width={24} height={24} alt="Clover Carte Pintrest" src="/images/social/pint.webp" />
                         </a>
 
                     </div>

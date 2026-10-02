@@ -1,6 +1,6 @@
 import React from 'react'
 import aboutImage from "../../assets/images/abt_1.webp"
-import aboutImage_2 from "../../assets/images/abt_2.jpg"
+import aboutImage_2 from "../../assets/images/abt_2.webp"
 import { ArrowRight } from 'lucide-react';
 import { MdOutlineCloudSync } from 'react-icons/md';
 import Link from 'next/link';

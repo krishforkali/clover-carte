@@ -1,6 +1,7 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import comp_over from "../assets/images/com_over.jpg"
+import comp_over from "../assets/images/com_over.webp"
 import { features, industries, processSteps, techfeatures } from "@/utils/helper";
 import M_home_Hero from "@/components/home/M_home_Hero";
 import LatestInsights from "@/components/home/LatestInsight";
@@ -16,7 +17,6 @@ const platformFeatures = [
   "Cashless Reconciliation",
   "Remote Diagnostics",
 ];
-
 
 
 export default function M_home() {
@@ -230,84 +230,95 @@ export default function M_home() {
         "
       >
          <AutoMarquee speed={25} gap={17} >
-        {processSteps.map((step) => {
+        {processSteps.map((step, idx) => {
           const Icon = step.icon;
 
           return (
-            <div
-              key={step.number}
-              className="
-                flex
-                h-[120px]
-                shrink-0
-                flex-col
-                items-center
-                gap-[4px]
-              "
-            >
-              {/* Icon */}
-              <div className="flex h-[80px] flex-col items-center pb-4">
+            <React.Fragment key={step.number || idx}>
+              <div
+                className="
+                  flex
+                  h-[120px]
+                  shrink-0
+                  flex-col
+                  items-center
+                  gap-[4px]
+                "
+              >
+                {/* Icon */}
+                <div className="flex h-[80px] flex-col items-center pb-4">
+                  <div
+                    className="
+                      box-border
+                      flex
+                      h-[64px]
+                      w-[64px]
+                      items-center
+                      justify-center
+                      rounded-full
+                      border-2
+                      border-[#018A06]
+                      bg-[#F1F9F1]
+                    "
+                  >
+                    <Icon
+                      size={24}
+                      strokeWidth={2}
+                      className="text-[#018A06]"
+                    />
+                  </div>
+                </div>
+
+                {/* Title */}
                 <div
                   className="
-                    box-border
                     flex
-                    h-[64px]
-                    w-[64px]
+                    min-h-[20px]
+                    w-full
                     items-center
                     justify-center
-                    rounded-full
-                    border-2
-                    border-[#018A06]
-                    bg-[#F1F9F1]
+                    text-center
+                    
+                    text-[14px]
+                    font-semibold
+                    leading-[20px]
+                    tracking-[0.14px]
+                    text-[#0F0F0F]
                   "
                 >
-                  <Icon
-                    size={24}
-                    strokeWidth={2}
-                    className="text-[#018A06]"
-                  />
+                  {step.number} {step.title}
+                </div>
+
+                {/* Description */}
+                <div
+                  className="
+                    flex
+                    min-h-[16px]
+                    w-full
+                    items-center
+                    justify-center
+                    text-center
+                    
+                    text-[12px]
+                    font-normal
+                    leading-[16px]
+                    text-[#5F5F5F]
+                  "
+                >
+                  {step.description}
                 </div>
               </div>
 
-              {/* Title */}
-              <div
-                className="
-                  flex
-                  min-h-[20px]
-                  w-full
-                  items-center
-                  justify-center
-                  text-center
-                  
-                  text-[14px]
-                  font-semibold
-                  leading-[20px]
-                  tracking-[0.14px]
-                  text-[#0F0F0F]
-                "
-              >
-                {step.number} {step.title}
+              {/* Double-chevron flow arrow */}
+              <div className="flex items-center shrink-0 self-start mt-5 gap-[1px]">
+                <svg width="14" height="20" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 4L18 16L4 28" stroke="#018A06" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                <svg width="14" height="20" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="-ml-1.5">
+                  <path d="M4 4L18 16L4 28" stroke="#018A06" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
               </div>
-
-              {/* Description */}
-              <div
-                className="
-                  flex
-                  min-h-[16px]
-                  w-full
-                  items-center
-                  justify-center
-                  text-center
-                  
-                  text-[12px]
-                  font-normal
-                  leading-[16px]
-                  text-[#5F5F5F]
-                "
-              >
-                {step.description}
-              </div>
-            </div>
+            </React.Fragment>
           );
         })}
         </AutoMarquee>
@@ -740,7 +751,7 @@ export default function M_home() {
             {/* Image */}
             <div className=" flex h-[160px] w-full items-center justify-center overflow-hidden rounded-t-[12px] " >
               <Image width={337} height={224}
-                src="/images/platform.jpg"
+                src="/images/platform.webp"
                 alt="CloverCarte platform"
                 className="
                                 h-auto
@@ -826,7 +837,7 @@ export default function M_home() {
         //         {/* Hero Image */}
         //         <div className="relative flex  w-full items-center justify-center">
         //             <Image
-        //                 src="/m_images/home_hero_1.png" 
+        //                 src="/m_images/home_hero_1.webp" 
         //                 alt="CloverCarte Smart Vending Machine"
         //                 width={364}
         //                 height={239}

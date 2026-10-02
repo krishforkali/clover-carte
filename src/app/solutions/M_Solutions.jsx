@@ -106,7 +106,7 @@ export default function M_Solutions() {
                     {/* Hero Image */}
                     <div className="w-full h-[270.75px] overflow-hidden rounded-[12px]">
                         <Image
-                            src={"/images/solution_hero.jpg"}
+                            src={"/images/solution_hero.webp"}
                             alt="Smart Vending Solutions for Every Business"
                             width={361}
                             height={271}
@@ -273,7 +273,7 @@ export default function M_Solutions() {
                     {/* Hero Image */}
                     <div className="w-full h-[250px] overflow-hidden rounded-[12px]">
                         <Image
-                            src={"/images/customMachineImage.jpg"}
+                            src={"/images/customMachineImage.webp"}
                             alt="Smart Vending Solutions for Every Business"
                             width={361}
                             height={250}
@@ -507,7 +507,7 @@ export default function M_Solutions() {
                 {/* Image */}
                <div className=" relative h-[210px] w-full overflow-hidden rounded-[12px] lg:h-[620px] " >
                     <Image
-                        src="/images/platform.jpg"
+                        src="/images/platform.webp"
                         alt="CloverCarte vending machine technology"
                         fill
                         sizes="

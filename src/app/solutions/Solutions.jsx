@@ -137,7 +137,7 @@ function Solutions() {
                     </p>
 
                     </div>
-    <div className="relative w-full max-w-[1248px] mx-auto min-h-[607px] overflow-hidden bg-cover bg-center" style={{ backgroundImage: `linear-gradient(270deg, rgba(102,102,102,0) 0%, rgba(0,0,0,0.8) 100%), url(/images/solution_hero.jpg)` }}>
+    <div className="relative w-full max-w-[1248px] mx-auto min-h-[607px] overflow-hidden bg-cover bg-center" style={{ backgroundImage: `linear-gradient(270deg, rgba(102,102,102,0) 0%, rgba(0,0,0,0.8) 100%), url(/images/solution_hero.webp)` }}>
         <div className="relative z-10 min-h-[607px] flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-[162px] px-8 md:px-12 lg:px-24 py-12 md:py-16">
 
             {/* LEFT CONTENT */}
@@ -281,7 +281,7 @@ function Solutions() {
                 {/* LEFT IMAGE CARD */}
                 <div className="relative w-full lg:w-[584px] h-[400px] lg:h-[501px] rounded-[8px] overflow-hidden ">
 
-                    <Image src="/images/customMachineImage.jpg" alt="Custom vending machine solution" fill className="object-cover" />
+                    <Image src="/images/customMachineImage.webp" alt="Custom vending machine solution" fill className="object-cover" />
 
                    
                 </div>

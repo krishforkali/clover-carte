@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../assets/images/logo.png";
-import lionLogo from "../../assets/images/lion.png";
-import dash from "../../assets/images/Vector.png";
+import logo from "../../assets/images/logo.webp";
+import lionLogo from "../../assets/images/lion.webp";
+import dash from "../../assets/images/Vector.webp";
 
 import NavLabel from "./Navlabel";
 import { m_products } from "@/data/m_product";

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 
 import heroImage from "../../assets/images/image 25.jpeg";
-import heroImage2 from "../../assets/images/hero_2.png";
+import heroImage2 from "../../assets/images/hero_2.webp";
 
 const heroSlides = [
     {
